@@ -7,7 +7,6 @@ include '../components/connect.php';
 
 $response = [];
 
-// check admin key for security
 $admin_key = isset($_GET['admin_key']) ? $_GET['admin_key'] : '';
 
 if($admin_key !== 'webpro2025'){
